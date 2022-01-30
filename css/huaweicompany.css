@@ -1,0 +1,236 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+ background-image: url('../files/imges/fff.JPEG');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+.imge a{
+    text-decoration: none;
+}
+.all{
+    width: 80%;
+    height: 150%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    background: #16181b94;
+    border: 0.1px solid #d2dae2;
+    border-radius: 25px;
+}
+.search_box{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50% , -50%); 
+    background: #1e272e;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search_box:hover >.search_text{
+    width: 600px;
+    padding: 0 6px;
+    color: white;
+    
+    
+}
+
+.search_box:hover >.search_btn{
+   background: white;
+    color: #1e272e;
+    
+}
+.search_btn{
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1e272e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.search_text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    
+    
+}
+.back{
+    
+    position: fixed;
+    width: 4.6%;
+    padding:8px 1.7% ;
+    margin: 18px;
+    border: 1px solid#0084e9;
+    border-radius: 50px;
+    background:none;
+    font-size: 20px;
+    font-family: "montserrat";
+    color: #0084e9;
+    top:3%;   
+     cursor: pointer;
+ }
+ .back:hover{
+     border-color: #fff;
+     color: #fff;
+ }
+
+.imge h2{
+    padding:20% 2%;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+   
+}
+.type a{
+  text-decoration: none;
+    color: #1e272e;
+
+}
+.imge{
+    background-image: url('../files/imges/Hawaeipg.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 30%;
+    border:none;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.type{
+    width: 92%;
+    margin-left: 3%;
+    display: block;
+    overflow: hidden;
+    padding: 4px 9px;
+    font-family: serif;
+    position: absolute;
+    overflow: hidden;
+
+    font-weight: 300;
+}
+.phones:hover{
+background: #fff;
+    color: #1e272e;
+}
+.phones{
+    transition: 0.2s;
+    text-transform: uppercase;
+    overflow: hidden;
+    left: -10%;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    margin: 8px 20%;
+    border: 1px solid #1e272e;
+    border-radius: 20px;
+    padding: 4px 9px;
+    font-family: serif;
+    font-weight: 300;
+
+}
+.cont1{
+    
+   text-align: center;
+    margin-top:1%;
+    border-radius: 10px;
+    
+}
+.btn{
+    border-radius: 5px;
+    border:none;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.1s;
+            box-shadow: 0 5px 15px -5px #00000070;
+    position: relative;
+    overflow: hidden;
+}
+    
+
+.btn1{
+    color:   #1e272e;
+    
+}
+ 
+
+.btn1:hover{
+    color: white;
+    transform: scale(1.0000000002);
+}
+
+.btn::before{
+    
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #1e272e;
+    z-index: -1;
+    transition: 0.1s;
+}
+.btn1::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+
+.btn1:hover::before{
+    height: 180%;
+}
+
+
+.ver {
+    background: #1e272e;
+        margin: 8px 0;
+    color: #fff;
+
+    
+}
+.fas{
+    padding: 0 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

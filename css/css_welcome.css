@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100%;
+    background: #000;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+    font-family:"montserrat";
+    letter-spacing: 0.1em;
+
+
+}
+
+video{
+    margin-top:-20%;
+    object-fit: cover;
+    width: 100%;
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: anim 1s linear forwards;
+}
+@keyframes anim {
+    0%{
+      opacity: 0;  
+      transform: rotateY(90deg);
+        filter: blur(8px);
+    }
+    100%{
+      opacity: 1; 
+      transform: rotateY(0deg);
+        filter: blur(0);
+        
+    }
+     
+}
+h1 span:nth-child(1){
+    animation-delay: 2s;
+    color: red;
+    font-size: 100px;
+}
+h1 span:nth-child(2){
+    animation-delay: 2.5s;
+    font-size: 100px;
+    color: red;
+}
+h1 span:nth-child(3){
+    animation-delay: 3s;
+    color: #009432;
+}
+h1 span:nth-child(4){
+    animation-delay: 3.5s;
+    color: deeppink;
+}
+h1 span:nth-child(5){
+    animation-delay: 4s;
+    color: darkgoldenrod;
+}
+h1 span:nth-child(6){
+    animation-delay: 4.5s;
+    color: yellow;
+}
+h1 span:nth-child(7){
+    animation-delay: 5s;
+    color: #F79F1F;
+}
+h1 span:nth-child(8){
+    animation-delay: 5.5s;
+    color: #0652DD;
+}
+button{
+    margin-top: -15%;
+    background: none;
+    font-family:"montserrat";
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 42%;
+    transition: 0.4s;
+    animation: btn 7s linear forwards;
+    transform: translateY(-50%);
+}
+button:nth-child(1){
+    
+animation-delay: 45s;
+}
+@keyframes btn {
+    0%{
+        filter: blur(100px);
+    }
+    100%{
+        filter: blur(0);
+        
+    }
+     
+}
+button a{
+      text-decoration: none;
+        color: #fff;
+
+
+}
+button:hover> a{
+      text-decoration: none;
+        color: #000;
+        font-weight: 600;
+
+
+
+}
+button:hover{
+    transform: scale(1.2);
+    background: #fff;
+}

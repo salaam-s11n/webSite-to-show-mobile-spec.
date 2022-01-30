@@ -1,0 +1,130 @@
+
+body{
+    background-image: url('../files/imges/fff.JPEG');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;    animation: bod 0.5s linear forwards;
+
+}
+
+    
+
+.all{
+    width: 70%;
+    height: 380%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: absolute;
+    top:135%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    background: none;
+    background: #16181b94;
+    border: 0.1px solid #d2dae2;
+    border-radius: 25px;
+}
+.back{
+    position: fixed;
+   width: 4.6%;
+   padding:8px 1.7% ;
+   margin: 18px;
+   border: 1px solid #0084e9;
+   border-radius: 40px;
+   background:none;
+   font-size: 20px;
+   font-family: "montserrat";
+   transition: 0.8s;
+   color: #0084e9;
+   top:3%;   
+    cursor: pointer;
+}
+.back:hover{
+    border-color: #fff;
+    color: #fff;
+}
+.services{
+    background: none;
+    text-align: center;
+    padding: 2px 4px;
+    
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #0984e3;
+    margin:0 30%;
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.service:hover{
+    background: #fff;
+}
+.service:hover>h2{
+    color: #000;
+}
+.service{
+    background: none;
+    display: inline-block;
+    width: calc(90%/2);
+    margin: 6px 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    border: none;
+    border-radius: 10px;
+    
+}
+.buy{
+    margin-top: 10%;
+    display: block;
+    outline: none;
+}
+.btn{
+    outline: none;
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    background-color: #37ce37;
+    color: #fff;
+    font-family: monospace;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #0652DD;
+}
+
+
+.imag{
+    border: none;
+   float: left;
+    width: 100PX;
+    align-items: 100px;
+    
+}
+.service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.service span{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    
+}

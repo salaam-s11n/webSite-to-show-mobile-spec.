@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../files/imges/fff.JPEG');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+     animation: bod 0.5s linear forwards;
+    
+}
+
+
+    
+
+.back{
+    
+   position: fixed;
+   width: 4.6%;
+   padding:8px 1.7% ;
+   margin: 18px;
+   border: 1px solid#0084e9;
+   border-radius: 50px;
+   background:none;
+   font-size: 20px;
+   font-family: "montserrat";
+   color: #0084e9;
+   top:3%;   
+    cursor: pointer;
+}
+.back:hover{
+    border-color: #fff;
+    color: #fff;
+}
+.box h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #1e272e56;
+    text-align: center;
+    border-radius: 10px;
+}
+.box input[type = "text"],.box input[type = "password"],input[type = "email"],.box input[type = "number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0097e6;
+    padding: 15px 10px;
+    width: 220px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+    
+    
+}
+.box input[type = "text"]:hover,.box input[type = "password"]:hover,input[type = "email"]:hover,input[type = "number"]:hover{
+    width: 350px;
+    border-color: #4cd137;
+    
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4cd137;
+    padding: 12px 30px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+.box input[type = "submit"]:hover{
+     background: #4cd137;
+        border-color:none ;
+
+    
+   
+}
+.box span{
+    font-size: 10px;
+    color: #00a8ff;
+    cursor: pointer;
+    
+}
+.box a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
